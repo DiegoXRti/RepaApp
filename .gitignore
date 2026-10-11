@@ -1,0 +1,35 @@
+# Archivos locales de Android Studio y Gradle
+.gradle/
+.idea/
+*.iml
+**/build/
+local.properties
+.externalNativeBuild/
+.cxx/
+captures/
+
+# Firmas, credenciales y configuraciones privadas
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+.env
+.env.*
+google-services.json
+secrets.properties
+keystore.properties
+
+# Datos de clientes, copias y binarios locales
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.apk
+*.aab
+*.hprof
+*.log
+exports/
+backups/
+datos-reales/
+

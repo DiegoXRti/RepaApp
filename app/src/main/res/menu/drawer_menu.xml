@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_ruta"
+            android:icon="@android:drawable/ic_menu_directions"
+            android:title="@string/menu_ruta" />
+        <item
+            android:id="@+id/nav_clientes"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="@string/menu_clientes" />
+        <item
+            android:id="@+id/nav_entregar_dinero"
+            android:icon="@android:drawable/ic_menu_save"
+            android:title="@string/menu_entregar_dinero" />
+        <item
+            android:id="@+id/nav_ganancias"
+            android:icon="@android:drawable/star_on"
+            android:title="@string/menu_ganancias" />
+    </group>
+
+    <item android:title="@string/menu_mantenimiento">
+        <menu>
+            <item
+                android:id="@+id/nav_limpiar"
+                android:icon="@android:drawable/ic_menu_delete"
+                android:title="@string/menu_limpiar_entregados" />
+            <item
+                android:id="@+id/nav_reset_propinas"
+                android:icon="@android:drawable/ic_menu_rotate"
+                android:title="@string/menu_reset_propinas" />
+        </menu>
+    </item>
+
+    <item android:title="@string/menu_otros">
+        <menu>
+            <item
+                android:id="@+id/nav_config"
+                android:icon="@android:drawable/ic_menu_manage"
+                android:title="@string/menu_configuracion" />
+            <item
+                android:id="@+id/nav_donar"
+                android:icon="@android:drawable/ic_menu_send"
+                android:title="@string/menu_donar" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@android:drawable/ic_menu_edit"
+                android:title="@string/menu_feedback" />
+            <item
+                android:id="@+id/nav_privacidad"
+                android:icon="@android:drawable/ic_menu_info_details"
+                android:title="@string/menu_privacidad" />
+        </menu>
+    </item>
+</menu>

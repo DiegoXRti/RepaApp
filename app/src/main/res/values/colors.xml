@@ -1,0 +1,24 @@
+<resources>
+    <color name="background">#F8F9FA</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="textPrimary">#1A1C1E</color>
+    <color name="textSecondary">#44474E</color>
+
+    <!-- Paleta de Verdes Consistente -->
+    <color name="primary">#006D3B</color> <!-- Verde Primario (Acciones Clave) -->
+    <color name="accent">#123524</color>  <!-- Verde Secundario (Encabezado/Acento) -->
+
+    <color name="primaryContainer">#D1E8D5</color>
+    <color name="surfaceVariant">#E1E2EC</color>
+    <color name="error">#BA1A1A</color>
+    <color name="divider">#EEEEEE</color>
+
+    <!-- Colores para FABs y UI Match -->
+    <color name="fab_bg">#D1E8D5</color>
+    <color name="trash_border">#BA1A1A</color>
+    <color name="trash_bg">#F5F5F5</color>
+
+    <!-- Colores para Notas -->
+    <color name="note_background">#F0F7F3</color>
+    <color name="note_text">@color/accent</color>
+</resources>

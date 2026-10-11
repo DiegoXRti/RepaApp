@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">RepaApp</string>
+    <string name="optimizar_ruta">Optimizar ruta</string>
+    <string name="limpiar_entregados">Limpiar entregados</string>
+    <string name="sin_pedidos">No hay pedidos. Comparte una ubicación desde WhatsApp o agrega uno manual.</string>
+    <string name="agregar_pedido">Agregar pedido</string>
+    <string name="llamar">Llamar</string>
+    <string name="navegar">Navegar</string>
+    <string name="entregado">Entregado</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="nombre_cliente">Nombre del cliente</string>
+    <string name="telefono">Teléfono</string>
+    <string name="direccion">Dirección o link de Maps</string>
+    <string name="precio_hint">Precio $</string>
+    <string name="propina_hint">Propina $</string>
+    <string name="default_zero">0</string>
+    <string name="btn_entregar_dinero">Entregar Dinero</string>
+    <string name="by_diego">By Diego J.</string>
+    <string name="exportar">Exportar</string>
+    <string name="importar">Importar</string>
+
+    <!-- Menú Lateral -->
+    <string name="menu_ruta">Ruta de Hoy</string>
+    <string name="menu_clientes">Mis Clientes</string>
+    <string name="menu_entregar_dinero">Entregar Dinero</string>
+    <string name="menu_ganancias">Mis Ganancias</string>
+    <string name="menu_mantenimiento">Mantenimiento</string>
+    <string name="menu_limpiar_entregados">Limpiar Entregados</string>
+    <string name="menu_reset_propinas">Reiniciar Propinas</string>
+    <string name="menu_otros">Legal y Ayuda</string>
+    <string name="menu_donar">Apoyar con una Propina (PayPal)</string>
+    <string name="menu_feedback">Enviar Comentarios / Reportar Error</string>
+    <string name="menu_privacidad">Política de Privacidad</string>
+
+    <!-- Política de Privacidad -->
+    <string name="privacidad_titulo">Política de Privacidad</string>
+    <string name="privacidad_texto">RepaApp es una herramienta de uso local. \n\n1. Datos: Tus datos (pedidos, clientes, fotos) se guardan exclusivamente en tu dispositivo. No tenemos servidores ni acceso a tu información. \n\n2. Permisos: Usamos el GPS para optimizar rutas y la Cámara para escanear tickets y tomar fotos de domicilios. \n\n3. ML Kit: El reconocimiento de texto ocurre dentro del teléfono, no se envía nada a la nube.</string>
+
+    <!-- Diálogos -->
+    <string name="dialog_cancelar">Cancelar</string>
+    <string name="dialog_cerrar">Cerrar</string>
+    <string name="dialog_guardar">Guardar</string>
+    <string name="dialog_confirmar">Confirmar</string>
+    <string name="dialog_borrar_todo">Borrar Todo</string>
+    <string name="dialog_limpiar_todo_titulo">Limpiar Todo</string>
+    <string name="dialog_limpiar_todo_msg">¿Estás seguro de que quieres eliminar todos los pedidos? (Incluyendo cobros pendientes)</string>
+    <string name="dialog_reset_propinas_titulo">Reiniciar Propinas</string>
+    <string name="dialog_reset_propinas_msg">¿Quieres poner el contador de propinas en $0.00 para empezar un nuevo día?</string>
+    <string name="dialog_finalizar_entrega">Finalizar Entrega</string>
+    <string name="dialog_propina_pregunta">¿Cuánto te dieron de propina?</string>
+
+    <!-- OCR -->
+    <string name="ocr_btn_escanear">Escanear Ticket/Nota</string>
+    <string name="ocr_exito">Ticket escaneado con éxito</string>
+    <string name="ocr_error">Error al escanear: %s</string>
+
+    <!-- Perfil Cliente -->
+    <string name="perfil_titulo">Perfil de Cliente</string>
+    <string name="perfil_nombre_hint">Nombre del Cliente</string>
+    <string name="perfil_telefono_hint">Teléfono</string>
+    <string name="perfil_direccion_hint">Dirección</string>
+    <string name="perfil_notas_hint">Notas sobre el cliente</string>
+    <string name="perfil_habito_propina">Hábito de Propina</string>
+    <string name="perfil_propina_siempre">Siempre 💰</string>
+    <string name="perfil_propina_aveces">A veces ⚖️</string>
+    <string name="perfil_propina_nunca">Nunca ❌</string>
+    <string name="perfil_crear_pedido">CREAR NUEVO PEDIDO</string>
+    <string name="perfil_sin_direccion">Sin dirección guardada</string>
+    <string name="perfil_sin_notas">Sin notas adicionales</string>
+    <string name="perfil_actualizado">Perfil actualizado</string>
+    <string name="perfil_error_nombre">El nombre es obligatorio</string>
+
+    <!-- Ganancias -->
+    <string name="ganancias_titulo">Resumen de Ganancias</string>
+    <string name="ganancias_hoy">HOY</string>
+    <string name="ganancias_semana">ÚLTIMOS 7 DÍAS</string>
+    <string name="ganancias_motivacion">¡Sigue así, Diego! Cada entrega cuenta.</string>
+
+    <!-- Otros -->
+    <string name="toast_pedido_agregado">Pedido agregado</string>
+    <string name="toast_pedido_actualizado">Pedido actualizado</string>
+    <string name="toast_cliente_eliminado">Cliente eliminado</string>
+    <string name="toast_gps_error">No se pudo obtener tu ubicación. Activa el GPS e intenta de nuevo.</string>
+    <string name="toast_ruta_optimizada">Ruta optimizada: %.1f km aprox. para %d pedido(s)</string>
+    <string name="toast_sin_ubicaciones">No hay pedidos con ubicación para optimizar</string>
+
+    <!-- Configuración -->
+    <string name="menu_configuracion">Configuración</string>
+    <string name="config_titulo">Configuración</string>
+    <string name="config_formato_hora">Formato de hora</string>
+    <string name="config_12h">12 Horas (PM)</string>
+    <string name="config_24h">24 Horas</string>
+    <string name="config_tema">Apariencia de la app</string>
+    <string name="config_tema_claro">Claro</string>
+    <string name="config_tema_oscuro">Oscuro</string>
+</resources>

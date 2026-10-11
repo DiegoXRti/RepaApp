@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#121212</color>
+    <color name="surface">#1E1E1E</color>
+    <color name="textPrimary">#FFFFFF</color>
+    <color name="textSecondary">#B0BEC5</color>
+
+    <!-- Paleta de Verdes Consistente (Modo Oscuro) -->
+    <color name="primary">#00E676</color> <!-- Verde Brillante para acciones -->
+    <color name="accent">#1B3D2F</color>  <!-- Verde Oscuro para fondo header -->
+
+    <color name="primaryContainer">#2D4F3D</color>
+    <color name="surfaceVariant">#2C2C2C</color>
+    <color name="error">#CF6679</color>
+    <color name="divider">#333333</color>
+
+    <!-- Colores para Notas (Modo Oscuro) -->
+    <color name="note_background">#2C2C2C</color>
+    <color name="note_text">@color/primary</color>
+</resources>

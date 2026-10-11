@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardOrder"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="12dp"
+    android:layout_marginVertical="6dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="2dp"
+    app:strokeWidth="1dp"
+    app:strokeColor="#EEEEEE">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/textPosicion"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/shape_circle_accent"
+                android:textSize="12sp"
+                android:layout_marginEnd="12dp"
+                tools:text="#1" />
+
+            <TextView
+                android:id="@+id/textNombre"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="@color/textPrimary"
+                android:textSize="18sp"
+                tools:text="Juan Perez" />
+
+            <TextView
+                android:id="@+id/textStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                tools:text="🟢" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/textPrecio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/primary"
+                android:textSize="16sp"
+                android:layout_marginEnd="8dp"
+                tools:text="$150.00" />
+
+            <TextView
+                android:id="@+id/textTipoPago"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:textColor="@color/textSecondary"
+                android:background="@drawable/shape_pago_tag"
+                android:paddingHorizontal="6dp"
+                android:paddingVertical="2dp"
+                tools:text="COBRAR" />
+
+            <TextView
+                android:id="@+id/tagPropina"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/shape_pago_tag"
+                android:paddingHorizontal="6dp"
+                android:paddingVertical="2dp"
+                android:visibility="gone"
+                tools:text="SIEMPRE 💰"
+                tools:visibility="visible"
+                tools:backgroundTint="#0B7A3E" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/textHora"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@color/textSecondary"
+                tools:text="02:30 PM" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textUbicacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:textColor="@color/textSecondary"
+            android:textSize="13sp"
+            app:drawableStartCompat="@drawable/ic_round_my_location"
+            android:drawablePadding="12dp"
+            app:drawableTint="@color/textSecondary"
+            tools:text="Calle Falsa 123" />
+
+        <TextView
+            android:id="@+id/textNotas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@color/note_background"
+            android:padding="8dp"
+            android:textColor="@color/note_text"
+            android:textSize="13sp"
+            android:visibility="gone"
+            tools:text="Nota: Entregar en la puerta trasera."
+            tools:visibility="visible" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imgFoto"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginTop="12dp"
+            android:scaleType="centerCrop"
+            android:visibility="gone"
+            android:elevation="4dp"
+            app:shapeAppearanceOverlay="@style/ShapeAppearance.Rounded18"
+            tools:src="@android:drawable/ic_menu_gallery"
+            tools:visibility="visible" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="16dp">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnLlamar"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/llamar"
+                android:padding="0dp"
+                android:textColor="@color/textSecondary"
+                app:icon="@drawable/ic_round_call"
+                app:iconGravity="top"
+                app:iconPadding="4dp"
+                app:iconSize="24dp"
+                app:iconTint="@color/textSecondary" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnNavegar"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/navegar"
+                android:padding="0dp"
+                android:textColor="@color/textSecondary"
+                app:icon="@drawable/ic_round_near_me"
+                app:iconGravity="top"
+                app:iconPadding="4dp"
+                app:iconSize="24dp"
+                app:iconTint="@color/textSecondary" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnEntregado"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/entregado"
+                android:padding="0dp"
+                android:textColor="@color/textSecondary"
+                app:icon="@drawable/ic_round_check_circle"
+                app:iconGravity="top"
+                app:iconPadding="4dp"
+                app:iconSize="24dp"
+                app:iconTint="@color/textSecondary" />
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
